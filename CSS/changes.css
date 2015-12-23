@@ -1,13 +1,35 @@
-#mainNav {
-  padding-bottom: 65px;
+#stop {
+  background-color: none;
 }
 
 .page-scroll {
-  margin-top: 50px;
+  margin-top: 0px;
   font-size: 25px;
   color: black;
 }
 
 #email {
   color: blue;
+}
+
+#mainNav {
+  background-color: #327AC7;
+}
+
+#about {
+  background-color: #6D7073;
+  padding-bottom: 50px;
+}
+
+#services {
+  background-color: #6D7073;
+  padding-bottom: 25px;
+}
+
+#contact  {
+  background-color: #6D7073;
+}
+
+#contact-btn {
+  
 }

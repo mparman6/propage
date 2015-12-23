@@ -59,7 +59,7 @@
         <h1>Matt Parman</h1>
 
         <p id="fullstack">Web Developer</p>
-        <a href="#about" class="btn btn-primary btn-xl page-scroll">What I can do for you</a>
+        <a id="stop" href="#about" class="btn btn-primary btn-xl page-scroll">What I can do for you</a>
       </div>
     </div>
   </header>
@@ -68,61 +68,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-          <h2 class="section-heading">My Mission</h2>
-          <p class="text-faded">Create interactive, user-friendly applications to enhance client and customer experience. This will keep the customers and clients coming back time and time again, lowering marketing costs and increasing revenues. </p>
-          <hr id="light">
           <h2 class="section-heading">Who is Matt Parman</h2>
-          <p class="text-faded">Former golf instructor and salesperson, turned web developer. After coming to terms with my passion for creating and coding, I attended the Rutgers Coding Bootcamp where I developed expertise in Javascript, HTML5, CSS3, JQuery, Node.js, Command Line, Git, among others.</p>
+          <p class="text-faded">Former golf instructor and salesperson, turned web developer. After discovering my passion for creating and coding, I attended the Rutgers Coding Bootcamp where I developed expertise in Javascript, HTML5, CSS3, JQuery, Node.js, Command Line, Git, among others.</p>
+          <h2 class="section-heading">My Mission</h2>
+          <p class="text-faded">With the world now working, shopping, connecting, and doing pretty much everything online, it's important to stay with the times. I specialize in creating interactive, user-friendly applications to enhance client and customer experience. This will keep the customers and clients coming back time and time again, lowering marketing costs and increasing revenues. </p>
+          <hr id="light">        
         </div>
       </div>
     </div>
   </section>
 
-  <section id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">I bring...</h2>
-          <hr id="long">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <h3>Web Development and Design</h3>
-
-            <p class="text-muted">Research, design and develop highly scalable web applications and web services using front and back end technologies that include Javascript, HTML5, CSS3, FTP, JQuery, Node.js, etc.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-
-            <h3>Team Player</h3>
-
-            <p class="text-muted">Work closely with other engineers, architects, QEs and operations teams to develop innovative solutions that meet business needs.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-
-            <h3>Code</h3>
-
-            <p class="text-muted">Passion for producing clean, standards-compliant code</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-
-            <h3>Client First Attitude</h3>
-
-            <p class="text-muted">Without creating value for the client, we cease to exist.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <section class="no-padding" id="portfolio">
     <div class="container-fluid">
@@ -181,36 +137,88 @@
     </div>
   </section>
 
-  <section id="contact">
+  <section id="services">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
-
-          <p>Give me a call or send me an email and I will get back to you as soon as possible!</p>
-        </div>
-        <div class="col-lg-4 col-lg-offset-2 text-center">
-          <i class="fa fa-phone fa-3x wow bounceIn"></i>
-          <p>123-456-6789</p>
-        </div>
-        <div class="col-lg-4 text-center">
-          <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-          <p><a id="email" href="">mparman6@yahoo.com</a></p>
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">What I'm all about...</h2>
+          <hr id="long">
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <h1><a href="github.html">Click to see my work on Github</a></h1>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <h3>Web Development and Design</h3>
+
+            <p class="text-muted">Research, design and develop highly scalable web applications and web services using front and back end technologies that include Javascript, HTML5, CSS3, FTP, JQuery, Node.js, etc.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+
+            <h3>Team Player</h3>
+
+            <p class="text-muted">Work closely with other engineers, architects, QEs and operations teams to develop innovative solutions that meet business needs.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+
+            <h3>Code</h3>
+
+            <p class="text-muted">Passion for producing clean, standards-compliant code</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+
+            <h3>Client First Attitude</h3>
+
+            <p class="text-muted">Without creating value for the client, we cease to exist.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <section id="contact">
+ <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" id="contact-btn"><h1>Get in Touch!</h1></button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">I'll get back to you as soon as possible!</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Send it!</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+
 
 
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="repos.js"></script>
-  <script src="commits.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="contact.js"></script>
 
 
 </body>
